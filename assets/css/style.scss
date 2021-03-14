@@ -2,3 +2,33 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+/*
+ * Styling for list of posts
+ */
+.post-list {
+  list-style: none;
+  padding: 0;
+
+  li {margin-bottom: 15px;}
+
+}
+
+
+
+/*
+ * Styling for Subscribe page
+ */
+.post-title {margin-bottom: 15px;}
+
+
+
+/*
+ * Styling on mobile
+ */
+ @media screen and (max-width: 600px) {
+   img {
+     display: block;
+     width: 75%;
+   }
+ }

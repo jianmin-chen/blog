@@ -1,0 +1,560 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Jianmin Chen | Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+	<style>
+		/*Basic setup*/
+		@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Pen+Script&family=Oswald&family=Manrope&family=Source+Code+Pro&family=VT323&display=swap');
+
+		:root
+		{
+			--red: #FA4D56;
+			--yellow: #F1C21B;
+			--blue: #08BDBA;
+			--purple: #8A3FFC;
+			--black: #292929;
+		}
+
+		*
+		{
+			box-sizing: border-box;
+		}
+
+
+		body, html
+		{
+			font-family: "Nanum Pen Script", cursive;
+			margin: 0;
+			overflow-x: hidden;
+			padding: 0;
+			scroll-behavior: smooth;
+		}
+
+		button, input[type="button"]
+		{
+			outline: none !important;
+		}
+
+		img
+		{
+			width: 100%;
+		}
+
+		textarea
+		{
+			resize: none;
+		}
+
+
+		/*Classes that can be applied to all sections*/
+		.background-img
+		{
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.red-section
+		{
+			background-color: var(--red);
+		}
+		.yellow-section
+		{
+			background-color: var(--yellow);
+		}
+		.col-section
+		{
+			color: white;
+			display: flex;
+			font-family: "Oswald", sans-serif;
+			font-size: 3.5rem;
+			padding: 60px;
+		}
+
+		.progress-div
+		{
+			margin: 25px 0;
+		}
+		.progress-div .progress
+		{
+			margin-bottom: 10px;
+		}
+
+		.section-text
+		{
+			margin: auto 0;
+		}
+		.section-text:before
+		{
+			content: "-";
+			display: block;
+			font-weight: bold;
+		}
+
+		.shadow-btn
+		{
+			background-color: transparent !important;
+			border: 1px solid white !important;
+			border-radius: 0px !important;
+			color: white;
+			font-family: "Major Mono Display", monospace;
+			font-weight: 600;
+			margin: 5px;
+			margin-left: 0;
+			text-transform: lowercase;
+		}
+		.shadow-btn:hover
+		{
+			background-color: white !important;
+			color: black !important;
+		}
+
+		.purple-btn
+		{
+			background-color: var(--purple);
+			border: none;
+			color: white;
+			padding: 8px 16px;
+		}
+		.purple-btn:hover
+		{
+			opacity: 0.9;
+		}
+
+		@keyframes blink
+		{
+			0% {opacity: 0;}
+			50% {opacity: 1;}
+			100% {opacity: 0;}
+		}
+		.blink
+		{
+			animation: blink 0.6s linear infinite;
+		}
+
+		.important-text
+		{
+			font-family: "Oswald", sans-serif;
+			margin: 15px 0;
+			text-decoration: underline;
+		}
+
+		.text-input
+		{
+			background-color: #ccc;
+			font-family: "Source Code Pro", monospace;
+			font-size: 0.9rem;
+		}
+		.text-input:focus, .text-input:hover
+		{
+			background-color: #ccc !important;
+			box-shadow: none !important;
+		}
+
+
+		/*Header*/
+		.header
+		{
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1555099962-4199c345e5dd");
+			background-position: center;
+			color: white;
+			padding: 60px;
+			min-height: 100vh;
+		}
+		.header h1
+		{
+			font-family: "VT323", monospace;
+			font-size: 5rem;
+		}
+
+
+		/*About me section*/
+		.about-me
+		{
+			border: 5px solid var(--yellow);
+		}
+
+		.about-me, .contact-me
+		{
+			font-size: 1.25rem;
+			line-spacing:  1.6;
+			padding: 45px;
+		}
+
+
+		/*Projects section*/
+		.project-div
+		{
+			background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%20320%22%20preserveAspectRatio%3D%22none%22%3E%0A%09%09%09%3Cpath%20fill%3D%22%238A3FFC%22%20fill-opacity%3D%221%22%20d%3D%22M0%2C96L17.1%2C90.7C34.3%2C85%2C69%2C75%2C103%2C101.3C137.1%2C128%2C171%2C192%2C206%2C202.7C240%2C213%2C274%2C171%2C309%2C133.3C342.9%2C96%2C377%2C64%2C411%2C85.3C445.7%2C107%2C480%2C181%2C514%2C202.7C548.6%2C224%2C583%2C192%2C617%2C192C651.4%2C192%2C686%2C224%2C720%2C229.3C754.3%2C235%2C789%2C213%2C823%2C197.3C857.1%2C181%2C891%2C171%2C926%2C176C960%2C181%2C994%2C203%2C1029%2C213.3C1062.9%2C224%2C1097%2C224%2C1131%2C218.7C1165.7%2C213%2C1200%2C203%2C1234%2C218.7C1268.6%2C235%2C1303%2C277%2C1337%2C277.3C1371.4%2C277%2C1406%2C235%2C1423%2C213.3L1440%2C192L1440%2C320L1422.9%2C320C1405.7%2C320%2C1371%2C320%2C1337%2C320C1302.9%2C320%2C1269%2C320%2C1234%2C320C1200%2C320%2C1166%2C320%2C1131%2C320C1097.1%2C320%2C1063%2C320%2C1029%2C320C994.3%2C320%2C960%2C320%2C926%2C320C891.4%2C320%2C857%2C320%2C823%2C320C788.6%2C320%2C754%2C320%2C720%2C320C685.7%2C320%2C651%2C320%2C617%2C320C582.9%2C320%2C549%2C320%2C514%2C320C480%2C320%2C446%2C320%2C411%2C320C377.1%2C320%2C343%2C320%2C309%2C320C274.3%2C320%2C240%2C320%2C206%2C320C171.4%2C320%2C137%2C320%2C103%2C320C68.6%2C320%2C34%2C320%2C17%2C320L0%2C320Z%22%3E%3C%2Fpath%3E%0A%09%09%3C%2Fsvg%3E");
+		}
+
+		/*For the main text*/
+		.project-div .row .col-sm-12, .pricing .row .col-sm-5
+		{
+			text-align: center;
+		}
+
+		/*For each of the project cards*/
+		.project-div .row .col-sm-4
+		{
+			font-size: 1.25rem;
+			padding: 25px;
+		}
+
+		.project-div .card
+		{
+			border: none !important;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			transition: 0.3s;
+		}
+		.project-div .card:hover
+		{
+			box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+		}
+		.project-div .card .card-info
+		{
+			padding: 20px 15px;
+		}
+
+
+		/*Pricing section*/
+		.pricing .col-sm-3
+		{
+			font-size: 1.25rem;
+			padding: 60px;
+		}
+
+		.pricing .col-sm-9
+		{
+			background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20200%20200%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%3Cpath%20fill%3D%22%2308BDBA%22%20d%3D%22M56%2C-48.6C66.3%2C-31.7%2C64.1%2C-8.8%2C59.8%2C15.2C55.6%2C39.1%2C49.2%2C64.1%2C33.8%2C72.3C18.4%2C80.6%2C-6.1%2C72%2C-26.1%2C60.1C-46.2%2C48.2%2C-61.9%2C32.9%2C-63.6%2C16.9C-65.4%2C0.8%2C-53.3%2C-16%2C-40.4%2C-33.4C-27.5%2C-50.9%2C-13.7%2C-68.9%2C4.6%2C-72.6C22.8%2C-76.2%2C45.7%2C-65.4%2C56%2C-48.6Z%22%20transform%3D%22translate(100%20100)%22%20%2F%3E%0A%3C%2Fsvg%3E%0A");
+			font-family: "Manrope", sans-serif;
+			padding: 60px 25px;
+			padding-bottom: 0;
+		}
+
+		.pricing .col-sm-9 .card
+		{
+			border-color: var(--blue);
+		}
+
+		.pricing .col-sm-9 .card .card-footer a
+		{
+			color: white;
+		}
+
+
+		/*Contact Me section*/
+		.contact-me
+		{
+			border: 5px solid var(--red);
+		}
+
+
+		/*Footer section*/
+		.footer
+		{
+			background-color: var(--black);
+			color: white;
+			font-size: 1.5rem;
+			padding-top: 15px;
+		}
+
+		.footer .row .col-sm-12
+		{
+			text-align: center;
+		}
+
+		/*For each of the social media links at the bottom of page*/
+		.footer .fa
+		{
+			border: 1px solid white;
+			border-radius: 50%;
+			color: white;
+			font-size: 1.25rem;
+			padding: 5px;
+		}
+		.footer .fa:hover
+		{
+			text-decoration: none;
+		}
+
+
+		/*For mobile screens*/
+		@media screen and (max-width: 800px)
+		{
+			.header {padding: 45px;}
+			.list-group {width: 100% !important;}
+			.pricing .col-sm-3, .pricing .col-sm-9 {padding-top: 25px; padding-bottom: 25px;}
+			.pricing .col-sm-9 {padding-top: 0;}
+		}
+	</style>
+	<script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		//set up some variables
+		var typewrite_text = "hi, i'm jianmin chen - a programmer";
+		var i = 0;
+
+		function typewrite()  //typewriting function
+		{
+			if (i < typewrite_text.length)
+			{
+				document.getElementById("header-text").innerHTML += typewrite_text[i];
+				i++;
+				
+				setTimeout(typewrite, 50);
+			}
+			else
+			{
+				document.getElementById("header-text").innerHTML += "<span class='blink'>|</span>";
+			}
+		}
+
+		window.onload = () =>
+		{
+			if (window.innerWidth < 600)  //if on mobile screens
+			{
+				typewrite_text = "hi, i'm jianmin chen";
+				
+				//swap information about me to bottom
+				const left = document.getElementById("about-me-left");
+				const right = document.getElementById("about-me-right");
+				const tmp_html = document.getElementById("about-me-left").innerHTML;
+				
+				left.innerHTML = document.getElementById("about-me-right").innerHTML;
+				right.innerHTML = tmp_html;
+				
+				//remove and add the necessary classes for each DIV
+				left.classList.remove("col-sm-8");
+				left.classList.add("col-sm-4");
+				
+				left.classList.remove("about-me");
+				left.classList.add("yellow-section");
+				left.classList.add("col-section");
+				
+				right.classList.remove("col-sm-4");
+				right.classList.add("col-sm-8");
+				
+				right.classList.remove("yellow-section");
+				right.classList.remove("col-section");	
+				right.classList.add("about-me");
+			}
+			
+			AOS.init({duration: 800});
+			
+			typewrite();
+		}
+	</script>
+<head>
+<body>
+	<!--Header-->
+	<div class="container-fluid header background-img">
+		<!--Row for pill buttons/Contact Me button-->
+		<div class="row">
+			<div class="col-sm-8">
+				<a href="#about-me" class="btn shadow-btn shadow-none">About Me</a>
+				<!--<a href="#projects" class="btn shadow-btn shadow-none">Projects</a>-->
+				<a href="#pricing" class="btn shadow-btn shadow-none">Pricing</a>
+				<a href="#contact-me" class="btn shadow-btn shadow-none">Contact Me</a>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-5">
+				<h1 id="header-text"></h1>
+			</div>
+			<div class="col-sm-7"></div>
+		</div>
+	</div>
+	<!--About Me/Skills-->
+	<div id="about-me" class="container-fluid">
+		<div class="row">
+			<div id="about-me-left" class="col-lg-8 about-me">
+				<p><span class="lead"><i>Hi!</i></span> I’m a self-taught programmer that slowly learned how to program by reading books from the local library, taking free courses online, and scrounging the Internet for resources. I really enjoy programming, along with doing different forms of art, such as drawing, painting, and playing the guitar.
+	</p>
+				<p><strong>Am I open for hire?</strong> Yes! I would prefer a remote unpaid internship.</p>
+				<!--Progress/experience for Python-->
+				<div class="progress-div">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+					</div>
+					<!--List group w/ info about what I can do in Python-->
+					<ul class="list-group" style="width: 50%">
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+							Intermediate Python programming experience
+							<span class="badge badge-primary badge-pill">50%</span>
+						</li>
+					</ul>
+				</div>
+				<!--Progress/experience for HTML/CSS-->
+				<div class="progress-div">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+					</div>
+					<ul class="list-group" style="width: 75%">
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+							Intermediate HTML/CSS experience
+							<span class="badge badge-primary badge-pill">75%</span>
+						</li>
+					</ul>
+				</div>
+				<!--Progress/experience for Javascript-->
+				<div class="progress-div">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+					</div>
+					<ul class="list-group" style="width: 65%">
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+							Intermediate Javascript programming experience
+							<span class="badge badge-primary badge-pill">65%</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="about-me-right" class="col-lg-4 yellow-section col-section">
+				<span class="section-text">About Me / Skills</span>
+			</div>
+		</div>
+	</div>
+	<!--
+	<div id="projects" class="container-fluid project-div background-img">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="important-text">projects</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card" data-aos="flip-up">
+					<img src="https://images.unsplash.com/photo-1601758176481-e81a6b713126">
+					<div class="card-info">
+						<h4><b>Project #1</b></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<button type="button" class="btn-block purple-btn">View</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" data-aos="flip-up">
+					<img src="https://images.unsplash.com/photo-1563950708942-db5d9dcca7a7">
+					<div class="card-info">
+						<h4><b>Project #2</b></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum at varius vel pharetra vel turpis nunc. Malesuada fames ac turpis egestas sed tempus urna et.</p>
+						<button type="button" class="btn-block purple-btn">View</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" data-aos="flip-up">
+					<img src="https://images.unsplash.com/photo-1572099606223-6e29045d7de3">
+					<div class="card-info">
+						<h4><b>Project #3</b></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis.</p>
+						<button type="button" class="btn-block purple-btn">View</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	-->
+	<!--Pricing-->
+	<div id="pricing" class="container-fluid pricing">
+		<div class="row">
+			<div class="col-sm-3" data-aos="slide-right">
+				<h1 class="important-text">pricing</h1>
+				<p>This is a collection of the services I offer! If there's something not here that you would like me to do regarding programming contact me below, and I'll get to you as soon as possible with information!</p>
+			</div>
+			<div class="col-sm-9 background-img">
+				<div class="card-deck" data-aos="slide-left">
+					<div class="card mb-3">
+						<div class="card-header text-white bg-info">Turn text into audiobook</div>
+						<div class="card-body">
+							<h5 class="card-title text-muted">Starting @ $5</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item"><b>What's this?</b> Turn a PDF, Word/Doc, or even normal .txt file into a audiobook!</li>
+								<li class="list-group-item"><b>What will I need to provide?</b> I would need a PDF, a Word/Doc document, or a .txt file with preferably only words.</li>
+							</ul>
+						</div>
+						<div class="card-footer text-white bg-info">
+							<a href="#" class="card-link">I need this service</a>
+						</div>
+					</div>
+					<div class="card mb-3">
+						<div class="card-header text-white bg-info">Get a basic website design</div>
+						<div class="card-body">
+							<h5 class="card-title text-muted">Starting @ $15</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item"><b>What's this?</b> Get a beautiful webpage based off your ideas and design files!</li>
+								<li class="list-group-item"><b>What will I need to provide?</b> I would need one or more design file(s). If you don't have one I can try to work off of your ideas.</li>
+							</ul>
+						</div>
+						<div class="card-footer text-white bg-info">
+							<a href="#" class="card-link">I need this service</a>
+						</div>
+					</div>
+					<div class="card mb-3">
+						<div class="card-header text-white bg-info">Basic API scraping and visualization</div>
+						<div class="card-body">
+							<h5 class="card-title text-muted">Starting @ $10</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item"><b>What's this?</b> Get a API scraped and visualized!</li>
+								<li class="list-group-item"><b>Do you scrape websites too?</b> I do in certain cases, depending on the website(s). You can contact me below for more information!</li>
+							</ul>
+						</div>
+						<div class="card-footer text-white bg-info">
+							<a href="#" class="card-link">I need this service</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Contact Me-->
+	<div id="contact-me" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 red-section col-section">
+				<span class="section-text">Contact Me</span>
+			</div>
+			<div class="col-sm-8 contact-me">
+				<p>Have something you would like to ask me? Let's chat!</p>
+				<form action="https://formspree.io/f/xyybngwn" method="POST">
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<input type="text" id="name" name="name" class="form-control text-input border-0" placeholder="Name..." required>
+						</div>
+						<div class="form-group col-sm-6">
+							<input type="email" id="email" name="email" class="form-control text-input border-0" placeholder="Email..." required>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+							<textarea id="query" name="query" class="form-control text-input border-0" placeholder="Query..." required></textarea>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+							<input type="submit" class="btn btn-danger btn-block" placeholder="Submit Query">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--Footer-->
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-sm-12">
+				<a href="https://github.com/jianmin-chen" class="fa fa-github"></a>
+				<a href="https://stackoverflow.com/users/12561168/jianmin-chen" class="fa fa-stack-overflow"></a>
+				<a href="https://www.sololearn.com/Profile/15316562" class="fa fa-chrome"></a>
+				<a href="https://codepen.io/JianminChen" class="fa fa-codepen"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p>Created by Jianmin Chen</p>
+			</div>
+		</div>
+	</div>
+</body>

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  Hey there!
+date:   2021-01-02 02:12:10 -0500
+categories: introduction
+tags: introduction
+comments: true
+---
+Hey there! I thought it'd be cool to write about whatever I'm doing at the current moment, so here it goes.
+
+{% include disqus.html %}
