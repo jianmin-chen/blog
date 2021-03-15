@@ -8,4 +8,5 @@ url: "https://jianmin-chen.github.io"
 github_username: jianmin-chen
 show_downloads: true
 show_excerpts: true
+is_project_page: false
 theme: jekyll-theme-minimal
