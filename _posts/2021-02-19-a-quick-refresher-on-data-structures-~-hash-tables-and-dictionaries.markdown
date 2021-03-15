@@ -10,7 +10,7 @@ comments: true
 
 Another article on data structures! In the last [one]({% post_url 2021-02-01-a-quick-refresher-on-data-structures-~-linked-lists,-queues,-and-stacks %}), we talked about linked lists, stacks, and queues. In this one, we'll build off that article and talk about hash tables and it's child, dictionaries.
 
-This article provides explanations and code for both data structures in Javascript, so feel free to follow along!
+This article provides explanations and code for both data structures in JavaScript, so feel free to follow along!
 
 ## What is a hash table?
 
@@ -70,23 +70,23 @@ Note that this code is assuming you already have a `LinkedList()` class somewher
 
 Dictionaries are data structures based off of hash tables. They're extremely similar to dictionaries in the real world in that they can store a word, typically called a *key* in computer science, and a definition, typically called a *value*. As you might already see, they're pretty useful - you can actually find them in most high level programming languages!
 
-In fact, Javascript already has them, and they come with a bunch of features, as they were designed to be objects(object-oriented programming might be something I discuss in another article); it's actually conventional to call them objects, so that's what I'll do for the rest of this article. There are two straightforward ways of creating them:
+In fact, JavaScript already has them, and they come with a bunch of features, as they were designed to be objects(object-oriented programming might be something I discuss in another article); it's actually conventional to call them objects, so that's what I'll do for the rest of this article. There are two straightforward ways of creating them:
 ~~~javascript
 let dict = {};
 dict = Object.create(null);  // dict is still the same
 ~~~
-To add a key and a value to a Javascript object, you can once again use two different options:
+To add a key and a value to a JavaScript object, you can once again use two different options:
 ~~~javascript
 dict["a"] = ["Andy", "Amanda"];
 dict.b = ["Brian"];
 ~~~
-As mentioned before, Javascript objects come with many features. Although there are too much to discuss thoroughly in one article, here's an example of what Javascript offers that loops through the keys and values of an object at the same time:
+As mentioned before, JavaScript objects come with many features. Although there are too much to discuss thoroughly in one article, here's an example of what JavaScript offers that loops through the keys and values of an object at the same time:
 ~~~javascript
 for (let [key, value] of Object.entries(dict)) {
     console.log(`Key: ${key}, value: ${value}`);
 }
 ~~~
-If you want a more in-depth article on what Javascript objects have to offer, feel free to ask in the comments below!
+If you want a more in-depth article on what JavaScript objects have to offer, feel free to ask in the comments below!
 
 ## Conclusion
 That's the end of this article! Play around with the hash table, and try to devise a hashing function of your own. If you're confused on anything, ask about it below! The code for the hash table discussed can be found [here](https://github.com/jianmin-chen/blog-programs/blob/main/A%20Quick%20Refresher%20on%20Data%20Structures/part-two.js).

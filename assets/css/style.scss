@@ -19,7 +19,30 @@
 /*
  * Styling for Subscribe page
  */
-.post-title {margin-bottom: 15px;}
+ .input-container {
+   display: -ms-flexbox;
+   display: flex;
+   width: 100%;
+ }
+
+ .input-container button, .input-container input {
+   border-radius: 0;
+   font-size: 1.2em;
+   padding: 10px;
+ }
+
+ .input-container button {
+   border: 1px solid #267CB9;
+   background-color: #267CB9;
+   color: white;
+   cursor: pointer;
+   text-align: center;
+   min-width: 50px;
+ }
+
+ .input-container input {border: 1px solid lightgray;}
+ .input-container input:focus {border: 1px solid #267CB9;}
+ .input-container input:focus, .input-container input:invalid {outline: none;}
 
 
 

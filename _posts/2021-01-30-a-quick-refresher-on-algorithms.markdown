@@ -8,7 +8,7 @@ comments: true
 ---
 <img src="https://cdn.pixabay.com/photo/2018/03/02/03/44/unordered-3192273__340.png" alt="Graph image" style="display: block; margin: 0 auto;">
 
-If you're someone like me, you probably need to review your basic algorithms once in a while. This is the cheat sheet for that! This page contains explanations and code(in Javascript) for basic searching algorithms:
+If you're someone like me, you probably need to review your basic algorithms once in a while. This is the cheat sheet for that! This page contains explanations and code(in JavaScript) for basic searching algorithms:
 
 * linear search
 * binary search
@@ -168,7 +168,7 @@ How does merge sort work? Well, when given an array, merge sort breaks the array
 
 Of course, to understand how merge sort works we also need to understand how it's helper, `merge`, works. `merge` takes two arrays and "merges" them together by constantly comparing the first element of each array and adding the smaller value to a final array, as well as removing the smaller value from it's respective array, through a `for` or `while` loop. If the items in one array have all been added to the final array, the rest of the items in the other array can be added, returning a sorted array. Take a look at the above visualization!
 
-In the meantime, here's an implementation of merge sort in Javascript:
+In the meantime, here's an implementation of merge sort in JavaScript:
 ~~~javascript
 const merge = (leftArr, rightArr) => {
     let mergedArr = [];

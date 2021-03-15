@@ -8,7 +8,7 @@ comments: true
 ---
 <img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image" style="display: block; margin: 0 auto;">
 
-If you're someone like me, besides reviewing your [basic algorithms]({% post_url 2021-01-30-a-quick-refresher-on-algorithms %}) you might also need to review your basic data structures. This article, along with 2 others soon to come, intend to do exactly that! In this article, I'll include explanations and code(in Javascript) for three basic data structures:
+If you're someone like me, besides reviewing your [basic algorithms]({% post_url 2021-01-30-a-quick-refresher-on-algorithms %}) you might also need to review your basic data structures. This article, along with 2 others soon to come, intend to do exactly that! In this article, I'll include explanations and code(in JavaScript) for three basic data structures:
 
 * linked lists
 * queues
@@ -33,7 +33,7 @@ There are many basic data structures out there. Some of the most commonly used a
 
 A linked list is, as you guessed it, a list. You probably are aware of what a list is; it's a array, or a collection of nodes already implemented in most programming languages where you can access each value by their position, which starts from zero.
 
-Lists are great. However, lists have fixed sizes, in most programming langauges. Even in programming languages with lists that have dynamic sizes(e.g Javascript or Python), when a item is inserted into a list the list has to be extended under the hood. And to do so, the computer has to copy the elements in one list into a new one, usually by allocating extra memory. So what is the running time of extending a list to fit a new item? Well, we have to go through `n` iterations to copy all the items in a list. Then, to create a list with a added item, we have to set up more memory, and add the new item in. Therefore, we can estimate that the running time is somewhere around **Θ(n)**, no matter where we are adding the new item.
+Lists are great. However, lists have fixed sizes, in most programming langauges. Even in programming languages with lists that have dynamic sizes(e.g JavaScript or Python), when a item is inserted into a list the list has to be extended under the hood. And to do so, the computer has to copy the elements in one list into a new one, usually by allocating extra memory. So what is the running time of extending a list to fit a new item? Well, we have to go through `n` iterations to copy all the items in a list. Then, to create a list with a added item, we have to set up more memory, and add the new item in. Therefore, we can estimate that the running time is somewhere around **Θ(n)**, no matter where we are adding the new item.
 
 Linked lists come to the rescue in such a situation! These lists are made up of nodes that contain two pieces of information: it's own value, and a variable that contains the next node or the location of the next node(known as a address in computer science). The above picture represents this. Once the list gets to the last item, there are no more nodes, so the address to the next node is nothing, or `null`.
 
