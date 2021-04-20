@@ -70,12 +70,12 @@ plugins:
 ~~~
 Change these variables to fit your needs, and experiment with them. Every time you change this file though, make sure to rerun `bundle exec jekyll serve`! Jekyll typically auto regenerates your content locally whenever you edit something, but the only exception is `_config.yml`.
 
-Also, and extra note - you might already understand most of the variables, but here's what `baseurl` and `url` are for those interested.
+Also, a extra note - you might already understand most of these variables, but here's what `baseurl` and `url` are for those interested.
 * `url`: The starting URL of your blog. For example, since the URL of my blog is *https://jianmin-chen.github.io/blog*, the starting URL is *https://jianmin-chen.github.io*.
 * `baseurl`: The ending path of your blog. Using the same example, the ending path of my blog would be */blog*.
 
 ## Writing Posts
-Now we can get to the fun part - writing! Take a look at your directory again. There should be a folder called `_posts`. If you open that, you'll see some files - these are the default posts. Get rid of these, and then create a new file in that folder. Name this file `<year>-<month>-<day>-<title-split-by-dashes>.markdown`, and add the following to it:
+Now we can get to the fun part - writing! Take a look at your directory again. There should be a folder called `_posts`. If you open that, you'll see some files - these are the default posts. Get rid of these, and then create a new file in that folder. Name this file `<year>-<month>-<day>-<title-split-by-dashes>.markdown`, and add the following header to it:
 ~~~
 ---
 date: year-month-day hour:minute:second
