@@ -34,6 +34,6 @@ In fact, the next part of the book is about "growing grit from the inside out". 
 Finally, the last part of this book explains how teachers and mentors can positively influence the grit of others. Most of Duckworth's advice here is aimed at adults, but can apply to mentors, teachers, and so forth. She talks about growth mindset and how parents can direct their children's growth mindset in a positive direction, thus increasing their grit as they learn not to give up and be optimistic. She also explains hat parents should be supportive but at the same time demanding of their kids, and finally sums up the part by explaining why extracurriculars are great for increasing grit in children.
 
 ## My Thoughts
-This book was a pretty good read. It was motivating, and at the same time, informational. Obviously, reading a book about grit will not turn me into a paragon of grit overnight, but I'm excited to follow the methods outlined in the book for growing my grit!
+This book was a pretty good read. It was motivating, and at the same time, informational. Obviously, reading a book about grit won't turn me into a paragon of grit overnight, but I'm excited to follow the methods outlined in the book for growing my grit!
 
 {% include disqus.html %}

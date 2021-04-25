@@ -35,9 +35,9 @@ Finally, the end of the book explains how to leverage your business to generate 
 * offering a range of options for a product or service, a.k.a upselling
 * making your product or services available as a subscription service
 
-More ideas are presented in the book, such as meeasuring metrics to increase traffic, encouraging referrals, and so on.
+More ideas are presented in the book, such as measuring metrics to increase traffic, encouraging referrals, and so on.
 
-"But What if I Fail?" happens to be the last chapter in the book. It's encouraging, and the main point of it is that even if you fail, you can get up again; just don't live someone else's life.
+"But What if I Fail?" happens to be the last chapter in the book. It's encouraging, and the main point of it is that even if you fail, you can get up again; just don't live a life that's not your own.
 
 ## My Thoughts
 I enjoyed this book a lot. I actually read it a couple of times over and over again to really get into my head the ideas presented in the book - it's jam packed with information and while it does miss out on some information(as every book is likely to do), it's a very useful and inspiring book that I'll be sure to come back to.

@@ -9,7 +9,7 @@ layout: default
   <h1>Programming</h1>
   <ul class="post-list">
     {%- for post in site.posts -%}
-      {%- unless post.tags contains "books" or post.tags contains "others" -%}
+      {%- unless post.tags contains "introduction" or post.tags contains "books" or post.tags contains "others" -%}
         <li>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
