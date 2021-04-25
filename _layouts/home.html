@@ -5,65 +5,57 @@ layout: default
 {{ content }}
 
 {%- if site.posts.size > 0 -%}
+    <h1 class="dropdown">Programming</h1>
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+            {%- unless post.tags contains "introduction" or post.tags contains "books" or post.tags contains "others" -%}
+                <li>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                    <h3>
+                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                    </h3>
+                    {%- if site.show_excerpts -%}
+                        <i>{{ post.content | markdownify | strip_html | truncatewords: 20 }}</i>
+                    {%- endif -%}
+                </li>
+            {%- endunless -%}
+        {%- endfor -%}
+    </ul>
 
-  <h1>Programming</h1>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-      {%- unless post.tags contains "introduction" or post.tags contains "books" or post.tags contains "others" -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            <i>{{ post.content | markdownify | strip_html | truncatewords: 20 }}</i>
-          {%- endif -%}
-        </li>
-      {%- endunless -%}
-    {%- endfor -%}
-  </ul>
+    <h1 class="dropdown">Books</h1>
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+            {%- if post.tags contains "books" -%}
+                <li>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                    <h3>
+                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                    </h3>
+                    {%- if site.show_excerpts -%}
+                        <i>{{ post.content | markdownify | strip_html | truncatewords: 20 }}</i>
+                        {%- endif -%}
+                    </li>
+            {%- endif -%}
+        {%- endfor -%}
+    </ul>
 
-  <h1>Books</h1>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-      {%- if post.tags contains "books" -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            <i>{{ post.content | markdownify | strip_html | truncatewords: 20 }}</i>
-          {%- endif -%}
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-
-  <h1>Others</h1>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-      {%- if post.tags contains "others" -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            <i>{{ post.content | markdownify | strip_html | truncatewords: 20 }}</i>
-          {%- endif -%}
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-
+    <h1>Others</h1>
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+            {%- if post.tags contains "others" -%}
+                <li>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                    <h3>
+                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                    </h3>
+                    {%- if site.show_excerpts -%}
+                        <i>{{ post.content | markdownify | strip_html | truncatewords: 20 }}</i>
+                        {%- endif -%}
+                    </li>
+            {%- endif -%}
+        {%- endfor -%}
+    </ul>
 {%- endif -%}

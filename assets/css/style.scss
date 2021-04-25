@@ -7,11 +7,12 @@
  * Styling for list of posts
  */
 .post-list {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 
-  li {margin-bottom: 15px;}
-
+    li {
+        margin-bottom: 15px;
+    }
 }
 
 
@@ -20,42 +21,48 @@
  * Styling for Subscribe page
  */
  .input-container {
-   display: -ms-flexbox;
-   display: flex;
-   width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
  }
 
  .input-container button, .input-container input {
-   border-radius: 0;
-   font-size: 1.2em;
-   padding: 10px;
+    border-radius: 0;
+    font-size: 1.2em;
+    padding: 10px;
  }
 
  .input-container button {
-   border: 1px solid #267CB9;
-   background-color: #267CB9;
-   color: white;
-   cursor: pointer;
-   text-align: center;
-   min-width: 50px;
+    border: 1px solid #267CB9;
+    background-color: #267CB9;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    min-width: 50px;
  }
 
- .input-container input {border: 1px solid lightgray;}
- .input-container input:focus {border: 1px solid #267CB9;}
- .input-container input:focus, .input-container input:invalid {outline: none;}
-
+ .input-container input {
+    border: 1px solid lightgray;
+ }
+ .input-container input:focus {
+    border: 1px solid #267CB9;
+ }
+ .input-container input:focus, .input-container input:invalid {
+    outline: none;
+ }
+ 
 
 
 /*
  * Styling on mobile
  */
  @media screen and (max-width: 600px) {
-   img {
-     display: block;
-     width: 75%;
-   }
+    img {
+        display: block;
+        width: 75%;
+    }
 
-   #logo {
-       display: none;
-   }
+    #logo {
+        display: none;
+    }
  }
