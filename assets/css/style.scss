@@ -84,11 +84,18 @@ header h1 {
     }
 
     ul.downloads {
-        padding: 3px !important;
-        padding-bottom: 3px !important;
+        padding: 3px;
+    }
+
+    ul.downloads strong {
+        display: block;
     }
 
     .input-container {
         display: block;
+    }
+
+    .input-container input {
+        margin-bottom: 3px;
     }
  }
