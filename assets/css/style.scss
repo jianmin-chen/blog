@@ -50,7 +50,6 @@ header h1 {
  }
 
  .input-container button, .input-container input {
-    flex: 1;
     border-radius: 0;
     font-size: 1.2em;
     padding: 10px;
@@ -85,7 +84,11 @@ header h1 {
     }
 
     ul.downloads {
-        padding: 3px;
-        padding-bottom: 5px;
+        padding: 3px !important;
+        padding-bottom: 3px !important;
+    }
+
+    .input-container {
+        display: block;
     }
  }
