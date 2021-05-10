@@ -6,6 +6,5 @@ description: >-
 baseurl: "/blog"
 url: "https://jianmin-chen.github.io"
 github_username: jianmin-chen
-show_downloads: true
 show_excerpts: true
 theme: jekyll-theme-minimal

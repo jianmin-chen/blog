@@ -1,10 +1,10 @@
 ---
-layout: post
-title: A Quick Refresher on Algorithms
-date: 2021-01-30 04:20:45 -0500
 categories: algorithms
-tags: algorithms
 comments: true
+date: 2021-01-30 04:20:45 -0500
+layout: post
+tags: algorithms
+title: A Quick Refresher on Algorithms
 ---
 <img src="https://cdn.pixabay.com/photo/2018/03/02/03/44/unordered-3192273__340.png" alt="Graph image" style="display: block; margin: 0 auto;">
 
@@ -194,5 +194,3 @@ Continuing on, the best case scenario would be if the array passed to merge sort
 
 ## Conclusion
 That's it! I hope you got something out of this article. We talked about running time, basic searching algorithms(linear search and binary search), and finally basic sorting algorithms(selection sort, bubble sort, and merge sort). If you have any questions feel free to ask below. The code is located [here](https://github.com/jianmin-chen/blog-programs/blob/main/A%20Quick%20Refresher%20on%20Algorithms/algorithms.js).
-
-{% include disqus.html %}

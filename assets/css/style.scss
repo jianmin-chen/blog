@@ -3,6 +3,20 @@
 
 @import "jekyll-theme-minimal";
 
+
+
+button, input {
+    outline: none;
+}
+
+
+
+header h1 {
+    font-size: 36px;
+}
+
+
+
 /*
  * Styling for list of posts
  */
@@ -18,11 +32,12 @@
 
 
 /*
- * Styling for Subscribe page
- */
- .input-container {
+ * Styling for subscribe form
+*/
+.input-container {
     display: -ms-flexbox;
     display: flex;
+    margin: 15px 0;
     width: 100%;
  }
 
@@ -38,7 +53,6 @@
     color: white;
     cursor: pointer;
     text-align: center;
-    min-width: 50px;
  }
 
  .input-container input {
@@ -50,7 +64,7 @@
  .input-container input:focus, .input-container input:invalid {
     outline: none;
  }
- 
+
 
 
 /*

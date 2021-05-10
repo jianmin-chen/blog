@@ -1,10 +1,10 @@
 ---
-layout: post
-title: Book Review ~ The $100 Startup
-date: 2021-03-07 11:43:45 -0500
 categories: books review
-tags: books review
 comments: true
+date: 2021-03-07 11:43:45 -0500
+layout: post
+tags: books review
+title: Book Review ~ The $100 Startup
 ---
 <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342787100l/14846293.jpg" alt="The $100 Startup book" style="display: block; margin: 0 auto;">
 
@@ -43,5 +43,3 @@ More ideas are presented in the book, such as measuring metrics to increase traf
 I enjoyed this book a lot. I actually read it a couple of times over and over again to really get into my head the ideas presented in the book - it's jam packed with information and while it does miss out on some information(as every book is likely to do), it's a very useful and inspiring book that I'll be sure to come back to.
 
 In the meantime, if you have any questions, feel free to ask below!
-
-{% include disqus.html %}

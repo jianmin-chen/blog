@@ -1,10 +1,10 @@
 ---
-layout: post
-title: Book Review ~ The Productivity Project
-date: 2021-03-04 11:26:25 -0500
 categories: books review
-tags: books review
 comments: true
+date: 2021-03-04 11:26:25 -0500
+layout: post
+tags: books review
+title: Book Review ~ The Productivity Project
 ---
 <img src="https://alifeofproductivity.com/wp-content/themes/ALOP/images/book-v2.png" alt="The Productivity Project book" style="display: block; margin: 0 auto;">
 
@@ -37,5 +37,3 @@ Finally, the last part talked about energy, and how to cultivate it better, by g
 Overall, it was a pretty good read. Stories and a few interesting interviews were sprinkled over the pages, which made it more interesting. The information definitely stuck in my head, and I'm currently trying out the ideas and tactics presented in the book.
 
 If you have any questions about the book though, feel free to fire below!
-
-{% include disqus.html %}

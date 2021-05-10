@@ -1,10 +1,10 @@
 ---
-layout: post
-title: My Atom Setup
-date: 2021-04-14 09:49:45 -0500
-categories: others editors
-tags: others editors
 comments: true
+categories: others editors
+date: 2021-04-14 09:49:45 -0500
+layout: post
+tags: others editors
+title: My Atom Setup
 ---
 <img src="/blog/assets/img/atom-editor.png" alt="My Atom editor" style="display: block; margin: 0 auto;">
 
@@ -41,5 +41,3 @@ As for packages I use in Atom, there are a couple of them. Packages typically ad
 
 ## Conclusion
 And that's that for my Atom setup! Atom is super useful for me personally - I can run the terminal in it, I can directly push to my GitHub repositories without using the command line, and I can edit, rename, and move files directly in it! Overall, it's super useful, and it's open source as well.
-
-{% include disqus.html %}

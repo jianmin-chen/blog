@@ -7,7 +7,7 @@
 
         {% seo %}
 
-        <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+        <link href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}" rel="stylesheet">
     </head>
     <body>
         <div class="wrapper">
@@ -20,16 +20,24 @@
 
                 <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-                {% if site.show_downloads %}
-                    <ul class="downloads">
-                        <li><a href="https://github.com/jianmin-chen" target="_blank">View profile on <strong>GitHub</strong></a></li>
-                        <li><a href="/blog/subscribe">Subscribe to <strong>Articles</strong></a></li>
-                        <li><a href="/blog/about">About <strong>Me</strong></a></li>
-                    </ul>
-                {% endif %}
+                <ul class="downloads">
+                    <li><a href="/blog/coding">Posts about <strong>Coding</strong></a></li>
+                    <li><a href="/blog/books">Posts about <strong>Books</strong></a></li>
+                    <li><a href="/blog/others">Posts about <strong>?</strong></a></li>
+                </ul>
             </header>
 
-            <section>{{ content }}</section>
+            <section>
+                <p><b>If you like what you read, feel free to subscribe! You'll get notifed by email whenever I post a new article.</b></p>
+                <form action="https://formspree.io/f/xdoppqln" class="input-container" method="POST">
+                  <input name="email" placeholder="Email..." required type="email">
+                  <button type="submit">Subscribe</button>
+                </form>
+                <hr>
+                {{ content }}
+                <hr>
+                {% include disqus.html %}
+            </section>
 
             <footer>
                 <p><small>(c) Jianmin Chen</small></p>

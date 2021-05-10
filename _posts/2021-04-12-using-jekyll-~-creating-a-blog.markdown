@@ -1,10 +1,10 @@
 ---
-layout: post
-title: Using Jekyll ~ Creating a Blog With Jekyll & Github Pages
-date: 2021-04-12 06:23:45 -0500
 categories: jekyll blog
-tags: jekyll blog
 comments: true
+date: 2021-04-12 06:23:45 -0500
+layout: post
+tags: jekyll
+title: Using Jekyll ~ Creating a Blog
 ---
 <img src="https://repository-images.githubusercontent.com/65252/f2b7c780-70b6-11e9-85d2-f4bda8708a2d" alt="Jekyll logo" style="display: block; margin: 0 auto;">
 
@@ -94,5 +94,3 @@ To write more posts, simply follow the steps above! If you're new to Markdown th
 
 ## Conclusion
 Whew, that was quick! We talked about a lot in this post - what Jekyll is and how it works, as well as setting up a blog of your own. In the next article, we'll discuss changing the theme out for something more exciting, and deploy our blog to GitHub Pages! In the meantime, if you have any questions, feel free to ask below.
-
-{% include disqus.html %}

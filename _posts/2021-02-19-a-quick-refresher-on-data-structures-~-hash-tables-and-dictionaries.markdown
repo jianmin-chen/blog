@@ -1,10 +1,10 @@
 ---
-layout: post
-title: A Quick Refresher on Data Structures ~ Hash Tables and Dictionaries
-date: 2021-02-19 07:57:45 -0500
 categories: data structures
-tags: data structures
 comments: true
+date: 2021-02-19 07:57:45 -0500
+layout: post
+tags: data structures
+title: A Quick Refresher on Data Structures ~ Hash Tables and Dictionaries
 ---
 <img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image" style="display: block; margin: 0 auto;">
 
@@ -90,5 +90,3 @@ If you want a more in-depth article on what JavaScript objects have to offer, fe
 
 ## Conclusion
 That's the end of this article! Play around with the hash table, and try to devise a hashing function of your own. If you're confused on anything, ask about it below! The code for the hash table discussed can be found [here](https://github.com/jianmin-chen/blog-programs/blob/main/A%20Quick%20Refresher%20on%20Data%20Structures/part-two.js).
-
-{% include disqus.html %}

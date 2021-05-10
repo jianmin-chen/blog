@@ -1,10 +1,10 @@
 ---
-layout: post
-title: A Quick Refresher on Data Structures ~ Binary Search Trees and Tries
-date: 2021-04-09 11:24:45 -0500
 categories: data structures
-tags: data structures
 comments: true
+date: 2021-04-09 11:24:45 -0500
+layout: post
+tags: data structures
+title: A Quick Refresher on Data Structures ~ Binary Search Trees and Tries
 ---
 <img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image" style="display: block; margin: 0 auto;">
 
@@ -76,5 +76,3 @@ Okay, that was four steps. Once again, a pattern is starting to emerge. *Inserti
 
 ## Conclusion
 Well, that was a lot, especially the explanation on tries! If the idea of a trie is still a bit fuzzy for you, that's fine - you can ask whatever questions you have below! And if you're really up for a challenge, try programming them!
-
-{% include disqus.html %}

@@ -1,10 +1,10 @@
 ---
-layout: post
-title: A Quick Refresher on Data Structures ~ Linked Lists, Queues, and Stacks
-date: 2021-02-01 01:14:45 -0500
-categories: data structures
-tags: data structures
 comments: true
+categories: data structures
+date: 2021-02-01 01:14:45 -0500
+layout: post
+tags: data structures
+title: A Quick Refresher on Data Structures ~ Linked Lists, Queues, and Stacks
 ---
 <img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image" style="display: block; margin: 0 auto;">
 
@@ -170,5 +170,3 @@ class Stack extends LinkedList {  // inherit all properties from LinkedList
 
 ## Conclusion
 That's it! Try out some of these implementations. You can even add extra features to them, such as changing the value of a node in a linked list. If you have any questions to ask, fire below! The code is located [here](https://github.com/jianmin-chen/blog-programs/blob/main/A%20Quick%20Refresher%20on%20Data%20Structures/part-one.js).
-
-{% include disqus.html %}
