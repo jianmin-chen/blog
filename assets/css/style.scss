@@ -4,6 +4,9 @@
 @import "jekyll-theme-minimal";
 
 
+body, html {
+    overflow-x: hidden;
+}
 
 button, input {
     outline: none;
@@ -76,12 +79,11 @@ header h1 {
  * Styling on mobile
  */
  @media screen and (max-width: 600px) {
-    img {
-        display: block;
-        width: 75%;
-    }
-
     #logo {
         display: none;
+    }
+
+    .input-container {
+        width: 100vw;
     }
  }
