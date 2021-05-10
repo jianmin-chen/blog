@@ -84,12 +84,7 @@ header h1 {
     }
 
     ul.downloads {
-        padding: 3px;
-    }
-
-    ul.downloads strong {
-        display: block;
-        margin-bottom: 3px;
+        height: 45px;
     }
 
     .input-container {
@@ -98,6 +93,6 @@ header h1 {
 
     .input-container input {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
  }
