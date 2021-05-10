@@ -1,12 +1,11 @@
 ---
 categories: jekyll blog
-comments: true
 date: 2021-04-12 06:23:45 -0500
 layout: post
 tags: jekyll
 title: Using Jekyll ~ Creating a Blog
 ---
-<img src="https://repository-images.githubusercontent.com/65252/f2b7c780-70b6-11e9-85d2-f4bda8708a2d" alt="Jekyll logo" style="display: block; margin: 0 auto;">
+<img src="https://repository-images.githubusercontent.com/65252/f2b7c780-70b6-11e9-85d2-f4bda8708a2d" alt="Jekyll logo">
 
 Recently, I've been playing around with Jekyll, a static site generator. I've even gotten around to creating my own Jekyll [theme](https://github.com/jianmin-chen/techdoc), so I thought it would be interesting to talk about using Jekyll with GitHub Pages in a series of articles dedicated to the topic.
 
@@ -42,7 +41,7 @@ index.markdown
 ~~~
 
 ## Viewing the Blog
-<img src="https://raw.githubusercontent.com/jekyll/minima/master/screenshot.png" alt="Minima theme" style="display: block; margin: 0 auto;">
+<img src="https://raw.githubusercontent.com/jekyll/minima/master/screenshot.png" alt="Minima theme">
 <a href="https://github.com/jekyll/minima" style="display: block; margin-top: 25px; text-align: center; width: 100%;">The default layout of your blog</a>
 
 Okay, cool! There must be something we can do with all those files, like... viewing them. That's what this part is about! Whenever you'd like to preview your files, simply open up a command line, navigate to the directory your blog is in, and run:

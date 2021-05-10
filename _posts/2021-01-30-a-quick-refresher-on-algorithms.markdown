@@ -1,12 +1,11 @@
 ---
 categories: algorithms
-comments: true
 date: 2021-01-30 04:20:45 -0500
 layout: post
 tags: algorithms
 title: A Quick Refresher on Algorithms
 ---
-<img src="https://cdn.pixabay.com/photo/2018/03/02/03/44/unordered-3192273__340.png" alt="Graph image" style="display: block; margin: 0 auto;">
+<img src="https://cdn.pixabay.com/photo/2018/03/02/03/44/unordered-3192273__340.png" alt="Graph image">
 
 If you're someone like me, you probably need to review your basic algorithms once in a while. This is the cheat sheet for that! This page contains explanations and code(in JavaScript) for basic searching algorithms:
 
@@ -97,7 +96,7 @@ Now let's talk about sorting algorithms! In this article, we'll discuss three of
 
 ### What is selection sort?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif" alt="Selection sort(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif" alt="Selection sort(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Selection_sort" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Selection sort visualization(Wikipedia)</a>
 
 Selection sort is a pretty trivial sorting algorithm. When given a array, it goes through each item in the array, and keeps track of the smallest. Once it goes through the array fully, it swaps the current element with the smallest element. Obviously, this only puts one number into it's proper place. To fully sort any given array, selection sort has to do the above *n* times(hint hint!), as shown in the visualization above and the code below:
@@ -131,7 +130,7 @@ Since the upper and lower bound are the same, we can use a simpler piece of nota
 
 ### What is bubble sort?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" alt="Bubble sort(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" alt="Bubble sort(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Bubble_sort" style="display: block; text-align: center; width: 100%;">Bubble sort visualization(Wikipedia)</a>
 
 Bubble sort is a sorting algorithm derived from selection sort that allows for a better lower bound. Basically, it goes through the provided array *n* times, similar to selection sort. Each time, bubble sort goes through each item starting from the beginning, and checks whether or not the item next to it is smaller. If the next item is smaller, the two items get swapped. If we keep track of this swapping, we can assume the array is sorted as soon as we can't swap any more numbers, such as in the code below:
@@ -159,7 +158,7 @@ However, what about the lower bound? The best case scenario would obviously be i
 
 ### What is merge sort?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/300px-Merge_sort_algorithm_diagram.svg.png" alt="Merge sort(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/300px-Merge_sort_algorithm_diagram.svg.png" alt="Merge sort(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Merge_sort" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Merge sort visualization(Wikipedia)</a>
 
 Finally, we're at our final algorithm, merge sort. Merge sort is better than selection sort and bubble sort in terms of running time, especially since it takes advantage of recursion.

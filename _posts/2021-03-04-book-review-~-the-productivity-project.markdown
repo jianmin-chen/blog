@@ -1,12 +1,11 @@
 ---
 categories: books review
-comments: true
 date: 2021-03-04 11:26:25 -0500
 layout: post
 tags: books review
 title: Book Review ~ The Productivity Project
 ---
-<img src="https://alifeofproductivity.com/wp-content/themes/ALOP/images/book-v2.png" alt="The Productivity Project book" style="display: block; margin: 0 auto;">
+<img src="https://alifeofproductivity.com/wp-content/themes/ALOP/images/book-v2.png" alt="The Productivity Project book">
 
 As part of my mission to be able to understand and integrate productivity into my life, I recently read *The Productivity Project*. As it's title claims, this book is about a project centered around productivity, which was carried out by the book's author, Chris Bailey.
 
@@ -15,7 +14,7 @@ For a whole year, he researched productivity and conducted productivity experime
 ## Main Points
 Basically, the book contains 25 productivity tactics that should have the most positive effects on your productivity. These tactics revolve around the three areas of productivity: **time**, **attention**, and **energy**.
 
-<img src="https://alifeofproductivity.com/wp-content/uploads/2014/04/timeenergyattention.png" alt="Areas of productivity(The Productivity Project)" style="display: block; margin: 0 auto;">
+<img src="https://alifeofproductivity.com/wp-content/uploads/2014/04/timeenergyattention.png" alt="Areas of productivity(The Productivity Project)">
 <a href="https://alifeofproductivity.com/100-time-energy-attention-hacks-will-make-productive/" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Areas of productivity (The Productivity Project)</a>
 
 ### Time

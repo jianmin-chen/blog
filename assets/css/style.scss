@@ -9,6 +9,11 @@ button, input {
     outline: none;
 }
 
+img:not(#logo) {
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 header h1 {

@@ -1,12 +1,11 @@
 ---
 categories: data structures
-comments: true
 date: 2021-04-09 11:24:45 -0500
 layout: post
 tags: data structures
 title: A Quick Refresher on Data Structures ~ Binary Search Trees and Tries
 ---
-<img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image" style="display: block; margin: 0 auto;">
+<img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image">
 
 This is a third, final article explaining basic data structures! By the end of this article, you'll have(hopefully!) a understanding of binary search trees and tries, which are two tree structures that are pretty useful.
 
@@ -16,7 +15,7 @@ Anyways, let's get started now!
 
 ## What is a binary search tree?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/180px-Binary_search_tree.svg.png" alt="Binary search tree(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/180px-Binary_search_tree.svg.png" alt="Binary search tree(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Binary_search_tree" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a binary search tree(Wikipedia)</a>
 
 The name of a binary search tree most likely gives you a idea of what it is, as long as you've heard of and understand binary search(check out [this]({% post_url 2021-01-30-a-quick-refresher-on-algorithms %}) article for a quick explanation if you don't know what binary search is). But before we get started on that, I'd like to discuss what a tree is.
@@ -45,7 +44,7 @@ What's the point of using a binary search tree if inserting into one takes up mo
 Now how long is it going to take to insert 60? That's right, O(log n)! The tree is now considered to be **balanced**, because the number of nodes on both sides are equal. That's better! Of course, the computer doesn't know how to balance a tree right away - it needs some algorithmic help. But that's a topic for another day...
 
 ## What is a trie?
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/250px-Trie_example.svg.png" alt="Trie(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/250px-Trie_example.svg.png" alt="Trie(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Trie" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a trie, which is used to make the words "a", "to", "tea", "ted", "ten", "i", and "inn"(Wikipedia)</a>
 
 Okay, let's move on to tries now. As you might already realize, data structures tend to build atop one another. Tries build on top of trees and arrays to form a tree made of arrays.

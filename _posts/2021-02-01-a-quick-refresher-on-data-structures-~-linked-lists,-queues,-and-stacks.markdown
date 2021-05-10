@@ -1,12 +1,11 @@
 ---
-comments: true
 categories: data structures
 date: 2021-02-01 01:14:45 -0500
 layout: post
 tags: data structures
 title: A Quick Refresher on Data Structures ~ Linked Lists, Queues, and Stacks
 ---
-<img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image" style="display: block; margin: 0 auto;">
+<img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image">
 
 If you're someone like me, besides reviewing your [basic algorithms]({% post_url 2021-01-30-a-quick-refresher-on-algorithms %}) you might also need to review your basic data structures. This article, along with 2 others soon to come, intend to do exactly that! In this article, I'll include explanations and code(in JavaScript) for three basic data structures:
 
@@ -28,7 +27,7 @@ There are many basic data structures out there. Some of the most commonly used a
 
 ### What is a linked list?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png" alt="Linked list(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png" alt="Linked list(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Linked_list" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a linked list(Wikipedia)</a>
 
 A linked list is, as you guessed it, a list. You probably are aware of what a list is; it's a array, or a collection of nodes already implemented in most programming languages where you can access each value by their position, which starts from zero.
@@ -117,7 +116,7 @@ That's all for linked lists! As you'll see later on, linked lists are very usefu
 
 ### What is a queue?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/300px-Data_Queue.svg.png" alt="Queue(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/300px-Data_Queue.svg.png" alt="Queue(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a queue(Wikipedia)</a>
 
 A queue is basically a data structure following the rules of a queue in real life. For example, a line in a restaurant is a queue. If two people get in line, the first person gets out first. It would obviously be very unfair if the second person got out first, right?
@@ -144,7 +143,7 @@ Neat, right?
 
 ### What is a stack?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lifo_stack.png/350px-Lifo_stack.png" alt="Stack(Wikipedia)" style="display: block; margin: 0 auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lifo_stack.png/350px-Lifo_stack.png" alt="Stack(Wikipedia)">
 <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a stack(Wikipedia)</a>
 
 Finally, let's discuss a stack. Now that we know what a queue is, a stack is actually very easy to understand. It's basically the opposite of a queue! Instead of following the acronym FIFO, it instead follows the acronym LIFO: *Last In, First Out*. It's like taking a plate from a a stack of plates - you don't take the bottom plate, which happens to be the first plate, do you? No, you normally would take the top plate, which happens to be the last plate.
