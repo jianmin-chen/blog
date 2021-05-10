@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 ---
+
 Hi! I'm Jianmin Chen.
 
 As a self-taught, or as I like to call it, self-teaching programmer, I get excited whenever I hear about programming. I discovered programming around four years ago, when I found a book on programming while exploring my local library. For two years, I didn't think much about it and even almost forgot about it, but I rekindled my love of programming in 2019 when I discovered *Sololearn*, a app where I could talk to and interact with other programmers(although I'm currently taking a break off the app to work on other projects).
