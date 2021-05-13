@@ -16,6 +16,7 @@ Great question! Jekyll is a static site generator. To put it simply, Jekyll take
 
 As an example, this blog uses Jekyll(and a GitHub Page theme known as [`minimal`](https://github.com/pages-themes/minimal) for those who are interested). Whenever I write a post, I write it in Markdown. For example, the raw text for the heading and paragraph above looks like this:
 ~~~markdown
+
 ## What is Jekyll?
 Great question! Jekyll is a static site generator. To put it simply, Jekyll takes text files written in a format known as Markdown, and parses them into HTML files whenever a file on your site is accessed. Jekyll sites use HTML and CSS like every other website ever, but it's the parsing that makes it special and easy to use, especially for those who blog.
 ~~~

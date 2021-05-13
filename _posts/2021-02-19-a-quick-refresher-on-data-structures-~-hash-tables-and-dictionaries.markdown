@@ -5,16 +5,16 @@ layout: post
 tags: data structures
 title: A Quick Refresher on Data Structures ~ Hash Tables and Dictionaries
 ---
-<img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image">
+![Computer image](https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg)
 
-Another article on data structures! In the last [one]({% post_url 2021-02-01-a-quick-refresher-on-data-structures-~-linked-lists,-queues,-and-stacks %}), we talked about linked lists, stacks, and queues. In this one, we'll build off that article and talk about hash tables and it's child, dictionaries.
+Another article on data structures! In the last [one](https://jianmin-chen.github.io/blog/data/structures/2021/02/01/a-quick-refresher-on-data-structures-~-linked-lists,-queues,-and-stacks.html), we talked about linked lists, stacks, and queues. In this one, we'll build off that article and talk about hash tables and it's child, dictionaries.
 
 This article provides explanations and code for both data structures in JavaScript, so feel free to follow along!
 
 ## What is a hash table?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1200px-Hash_table_3_1_1_0_1_0_0_SP.svg.png" alt="Hash table(Wikipedia)">
-<a href="https://en.wikipedia.org/wiki/Hash_table" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a hash table(Wikipedia)</a>
+![Hash table](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1200px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
+<a class="img-link" href="https://en.wikipedia.org/wiki/Hash_table">Pictorial depiction of a hash table(Wikipedia)</a>
 
 Good question! A hash table is basically a array of linked lists. That doesn't sound so special at first, but what makes a hash table special is that it allows you to add and get values from it typically in **O(1)** time. How does that work? Well, when you want to add a value to a hash table, the hash table uses a function called `hash()` to get the respective position of that value in the array. Basically, it converts that value to a number somehow that represents the position of that value in the hash table.
 
@@ -64,8 +64,8 @@ Note that this code is assuming you already have a `LinkedList()` class somewher
 
 ## What is a dictionary?
 
-<img src="https://developers.google.com/edu/python/images/dict.png" alt="Dictionary(Google)">
-<a href="https://developers.google.com/edu/python/dict-files" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a dictionary(Google)</a>
+![Dictionary](https://developers.google.com/edu/python/images/dict.png)
+<a class="img-link" href="https://developers.google.com/edu/python/dict-files">Pictorial depiction of a dictionary(Google)</a>
 
 Dictionaries are data structures based off of hash tables. They're extremely similar to dictionaries in the real world in that they can store a word, typically called a *key* in computer science, and a definition, typically called a *value*. As you might already see, they're pretty useful - you can actually find them in most high level programming languages!
 

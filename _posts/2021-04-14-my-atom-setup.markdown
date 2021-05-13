@@ -5,7 +5,7 @@ layout: post
 tags: others editors
 title: My Atom Setup
 ---
-<img src="/blog/assets/img/atom-editor.png" alt="My Atom editor">
+![My Atom editor](/blog/assets/img/atom-editor.png)
 
 What is something every programmer relies on to be productive? Well, actually, there's a long list of what we need to be productive. But if we don't include the necessities(a computer, access to the Internet, and of course, Stack Overflow), I think we all need one thing: a nice text editor, designed for programming.
 

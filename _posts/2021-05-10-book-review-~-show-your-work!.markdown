@@ -5,7 +5,7 @@ layout: post
 tags: books review
 title: Book Review ~ Show Your Work!
 ---
-<img src="https://austinkleon.com/wp-content/uploads/2012/10/00-show-cover.jpg" alt="Show Your Work! book">
+![Show Your Work! book](https://austinkleon.com/wp-content/uploads/2012/10/00-show-cover.jpg)
 
 While watching a YouTube video, I came across the book *Show Your Work*, written by Austin Kleon. Although the book is short, I personally believe it does a good job of explaining why expressing and sharing our thoughts with others through online mediums such as blogs, YouTube, and whatever people use nowadays is beneficial for us in the long term.
 

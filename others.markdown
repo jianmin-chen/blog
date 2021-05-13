@@ -3,6 +3,6 @@ layout: page
 title: Posts About ?
 ---
 
-Posts about anything not book- or coding- related.
+Posts about anything in general.
 
 {% include other-posts.html %}

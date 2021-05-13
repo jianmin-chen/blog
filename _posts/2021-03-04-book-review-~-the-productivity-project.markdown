@@ -5,7 +5,7 @@ layout: post
 tags: books review
 title: Book Review ~ The Productivity Project
 ---
-<img src="https://alifeofproductivity.com/wp-content/themes/ALOP/images/book-v2.png" alt="The Productivity Project book">
+![The Productivity Project book](https://alifeofproductivity.com/wp-content/themes/ALOP/images/book-v2.png)
 
 As part of my mission to be able to understand and integrate productivity into my life, I recently read *The Productivity Project*. As it's title claims, this book is about a project centered around productivity, which was carried out by the book's author, Chris Bailey.
 
@@ -14,8 +14,8 @@ For a whole year, he researched productivity and conducted productivity experime
 ## Main Points
 Basically, the book contains 25 productivity tactics that should have the most positive effects on your productivity. These tactics revolve around the three areas of productivity: **time**, **attention**, and **energy**.
 
-<img src="https://alifeofproductivity.com/wp-content/uploads/2014/04/timeenergyattention.png" alt="Areas of productivity(The Productivity Project)">
-<a href="https://alifeofproductivity.com/100-time-energy-attention-hacks-will-make-productive/" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Areas of productivity (The Productivity Project)</a>
+![Areas of productivity](https://alifeofproductivity.com/wp-content/uploads/2014/04/timeenergyattention.png)
+<a class="img-link" href="https://alifeofproductivity.com/100-time-energy-attention-hacks-will-make-productive/">Areas of productivity (The Productivity Project)</a>
 
 ### Time
 The first part of this book is about time, and discusses ways to manage your time and procrastinate less. One of the great ideas I pulled from this section was setting three weekly tasks and three daily tasks. It sounds simple, but by doing this, you list out the three most *important* things you want to accomplish(because productivity isn't about how efficient you are, it's about how much you accomplish) in a week or in a day, and also lay out extra time for random issues that might pop up.

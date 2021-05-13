@@ -5,20 +5,20 @@ layout: post
 tags: data structures
 title: A Quick Refresher on Data Structures ~ Binary Search Trees and Tries
 ---
-<img src="https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg" alt="Computer image">
+![Computer image](https://images.idgesg.net/images/article/2020/03/jw_pt3_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834801-large.jpg)
 
 This is a third, final article explaining basic data structures! By the end of this article, you'll have(hopefully!) a understanding of binary search trees and tries, which are two tree structures that are pretty useful.
 
-If you'd like to take a look at the first article, which focuses on linked lists, stacks, and queues, take a look [here]({% post_url 2021-02-01-a-quick-refresher-on-data-structures-~-linked-lists,-queues,-and-stacks %}). Once you're done with that, you might also like to take a look at the second [article]({% post_url 2021-02-19-a-quick-refresher-on-data-structures-~-hash-tables-and-dictionaries %}) in this series, which explains hash tables and dictionaries.
+If you'd like to take a look at the first article, which focuses on linked lists, stacks, and queues, take a look [here](https://jianmin-chen.github.io/blog/data/structures/2021/02/01/a-quick-refresher-on-data-structures-~-linked-lists,-queues,-and-stacks.html). Once you're done with that, you might also like to take a look at the second [article](https://jianmin-chen.github.io/blog/data/structures/2021/02/19/a-quick-refresher-on-data-structures-~-hash-tables-and-dictionaries.html) in this series, which explains hash tables and dictionaries.
 
 Anyways, let's get started now!
 
 ## What is a binary search tree?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/180px-Binary_search_tree.svg.png" alt="Binary search tree(Wikipedia)">
-<a href="https://en.wikipedia.org/wiki/Binary_search_tree" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a binary search tree(Wikipedia)</a>
+![Binary search tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/180px-Binary_search_tree.svg.png)
+<a class="img-link" href="https://en.wikipedia.org/wiki/Binary_search_tree">Pictorial depiction of a binary search tree(Wikipedia)</a>
 
-The name of a binary search tree most likely gives you a idea of what it is, as long as you've heard of and understand binary search(check out [this]({% post_url 2021-01-30-a-quick-refresher-on-algorithms %}) article for a quick explanation if you don't know what binary search is). But before we get started on that, I'd like to discuss what a tree is.
+The name of a binary search tree most likely gives you a idea of what it is, as long as you've heard of and understand binary search(check out [this](https://jianmin-chen.github.io/blog/algorithms/2021/01/30/a-quick-refresher-on-algorithms.html) article for a quick explanation if you don't know what binary search is). But before we get started on that, I'd like to discuss what a tree is.
 
 ### What is a tree?
 We're going to be focusing on trees for the rest of this article, so it's pretty important that you know what trees are. No, not the trees you can see outside, but the data structure. Trees are extremely reminiscent of family trees. They have a starting node, typically called the **root** or **parent node**. This node, which has a value, commonly points to two other nodes(although it can point to any number of nodes), which are called it's **child nodes**. When depicted pictorially, these nodes can either be the **left node** or the **right node** of the parent node(take a look at the picture above and you'll understand). These nodes can point to two other nodes, and so on. Another way to view trees is to think of them as linked lists with nodes that point to one or more nodes.
@@ -29,7 +29,7 @@ Of course, you might also want to know the running time of inserting into a bina
 
 Well, that seems correct. But, are we really thinking in the worst case scenario? I dare say no. What if we have a **unbalanced** binary search tree?
 
-<img src="https://qph.fs.quoracdn.net/main-qimg-61f940ac3024035312e258262c8945fe" alt="Unbalanced binary search tree" style="display: block; margin: 0px auto;">
+![Unbalanced binary search tree](https://qph.fs.quoracdn.net/main-qimg-61f940ac3024035312e258262c8945fe)
 
 Adding 60 to that binary search tree certainly isn't going to be O(log n). It's O(n), right? We would have to traverse all the nodes in the tree just to insert 60. So technically, the worst case running time of inserting into a binary search tree would be **O(n)**.
 
@@ -44,14 +44,14 @@ What's the point of using a binary search tree if inserting into one takes up mo
 Now how long is it going to take to insert 60? That's right, O(log n)! The tree is now considered to be **balanced**, because the number of nodes on both sides are equal. That's better! Of course, the computer doesn't know how to balance a tree right away - it needs some algorithmic help. But that's a topic for another day...
 
 ## What is a trie?
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/250px-Trie_example.svg.png" alt="Trie(Wikipedia)">
-<a href="https://en.wikipedia.org/wiki/Trie" style="display: block; margin-top: 25px; text-align: center; width: 100%;">Pictorial depiction of a trie, which is used to make the words "a", "to", "tea", "ted", "ten", "i", and "inn"(Wikipedia)</a>
+![Trie](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/250px-Trie_example.svg.png)
+<a class="img-link" href="https://en.wikipedia.org/wiki/Trie">Pictorial depiction of a trie, which is used to make the words "a", "to", "tea", "ted", "ten", "i", and "inn"(Wikipedia)</a>
 
 Okay, let's move on to tries now. As you might already realize, data structures tend to build atop one another. Tries build on top of trees and arrays to form a tree made of arrays.
 
 Although it doesn't show it for simplicity, the nodes in the image above are items in arrays, which point to one another to form words. We start out with what seems like a empty node - really a node containing a array of size 26. This array contains the letters A through Z, but only three of them are used - "t", "a", and "i".
 
-"a" doesn't point to anything; in other words, it contains a `null` pointer. Therefore, we stop there, and the word "a" is formed. But there's also a number 15. Why? It's there to make finding "a" easily. If we need to find "a", we can simply use a reference to it - 15. Then, we can start going through our tree, most likely using a hashing function(explained in the second [article]({% post_url 2021-02-19-a-quick-refresher-on-data-structures-~-hash-tables-and-dictionaries %}) in this series). Using a hashing function, we know that "a" is at index zero of this first array. Okay, now that we're there, we can see if 15 is there, which will indicate that we've found "a". It is, so perfect, we've found "a"! And that's searching a trie in a nutshell.
+"a" doesn't point to anything; in other words, it contains a `null` pointer. Therefore, we stop there, and the word "a" is formed. But there's also a number 15. Why? It's there to make finding "a" easily. If we need to find "a", we can simply use a reference to it - 15. Then, we can start going through our tree, most likely using a hashing function(explained in the second [article](https://jianmin-chen/github.io/blog/data/structures/2021/02/19/a-quick-refresher-on-data-structures-~-hash-tables-and-dictionaries.html) in this series). Using a hashing function, we know that "a" is at index zero of this first array. Okay, now that we're there, we can see if 15 is there, which will indicate that we've found "a". It is, so perfect, we've found "a"! And that's searching a trie in a nutshell.
 
 On the other hand, "t" and "i" point to arrays of their own. Let's start with "i" since it's easy. In fact, it's a good example of where using numbers to reference words becomes super useful. "i" is already a word, so we have the number 11. We could end there, but what if we're trying to find the word "in"? Well, in that case, we can go farther and take a look at the array "i" points to. In this array, we have a "n", and the number 5, indicating the end of the word "in". That's why we use numbers - to understand where the word we're trying to find ends. If we wanted to add "inn" to this trie, we could have the array we're currently at point to another array, containing the letter "n" and a number reference.
 

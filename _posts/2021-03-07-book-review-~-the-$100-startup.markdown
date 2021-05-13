@@ -5,7 +5,7 @@ layout: post
 tags: books review
 title: Book Review ~ The $100 Startup
 ---
-<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342787100l/14846293.jpg" alt="The $100 Startup book">
+![The $100 Startup book](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342787100l/14846293.jpg)
 
 Besides reading [*The Productivity Project*]({% post_url 2021-03-04-book-review-~-the-productivity-project %}) this week, I also read *The $100 Startup*. This book's title pretty much explains what the book is about - starting a small business with a minimal amount of money! The book focuses on being able to run a small business that doesn't make you rich but provides you with more freedom.
 
