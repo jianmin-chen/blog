@@ -14,9 +14,14 @@ Since then, I've gained experience in and dabbled with:
 * HTML/CSS and Bootstrap
 * JavaScript and React, which was actually pretty easy to pick up
 
-Of course, the mantra of programming must be something like "just keep learning", meaning I'm still learning all sorts of things - there's so much out there to do and learn, which makes programming genuinely interesting!
+Of course, the mantra of programming must be something like "just keep learning", meaning I'm still learning all sorts of things - there's so much out there to do and learn, which makes programming genuinely interesting! In fact, I'm currently following a roadmap to learn programming:
+- [ ] June 2021: Finish CS50
+- [ ] August 2021: Read and learn from *Think Java*
+- [ ] December 2021: Finish CS50's Web Programming with Python and JavaScript
+- [ ] June 2022: Get a solid understanding of data structures and algorithms
+- [ ] Onward from June 2022: Practice competitive programming problems and participate in competitions
 
-Check out my profile on:
+Oh, and check out my profile on:
 * [GitHub](https://github.com/jianmin-chen)
 * [Stack Overflow](https://stackoverflow.com/users/12561168/detectivecamel)
 * [Sololearn](https://www.sololearn.com/profile/15316562)
