@@ -13,7 +13,7 @@ Now, as I mentioned before, programming can vary widely, from game development t
 * **Web development**: I've always been interested in web development and what I can do with it. I have experience with full-stack web development, but I'm looking to solidify my experience by learning a couple of tools in more detail, which is overwhelming since there's simply so much frameworks and libraries out there in different programming languages.
 * **Competitive programming**: Part of the reason why I'm interested in competitive programming is that it's helpful for finding jobs related to programming, and it fosters learning of computer science concepts(one of those topics that are boring but necessary), through competition.
 
-While I do dabble in other fields like game development(which got me into programming in the first place), and are interested in other fields, I believe that now isn't the right time to pursue them(when I do decide to create a new learning roadmap, I will be sure to write another blog post).
+While I do dabble in other fields like game development(which got me into programming in the first place), and are interested in other fields(artificial intelligence and machine learning), I believe that now isn't the right time to pursue them(when I do decide to create a new learning roadmap, I will be sure to update this blog post or write a new one).
 
 ### Motive
 Before I explain my thinking process for how I'm going to learn these two, I'd like to explain why I'm writing this post. Basically, this post serves as a reminder for me that these are my plans, and will motivate me to keep going.
@@ -30,7 +30,7 @@ After I finish the course, I'm going to go on a break and share my knowledge wit
 
 Then, I'm going to take another course that derives from CS50. This one is known as [*CS50's Web Programming with Python and JavaScript*](https://cs50.harvard.edu/web/2020/), and it explains a lot of web development topics I don't have much experience in yet, such as Git, Django(another Python framework for web development, used by companies like Instagram), SQL models and migrations, CI/CD(continuous integration and development, which I know nothing about), and scalability as well as security. By the end of this course, which I'm hoping to finish by the end of December 2021, I'll hopefully have enough full-stack knowledge to be able to code a entire web application and then maintain it.
 
-That's my short plan for learning web development! Obviously, there's other topics and alternative framworks I could use(e.g, Express with NodeJS, Ruby On Rails, etc.), but the above seems to provide a reasonable amount of web programming knowledge.
+That's my short plan for learning web development! Obviously, there's other topics and alternative frameworks I could use(e.g, Express with NodeJS, Ruby On Rails, etc.), but the above seems to provide a reasonable amount of web programming knowledge.
 
 ## Competitive Programming
 
