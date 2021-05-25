@@ -30,6 +30,10 @@ After I finish the course, I'm going to go on a break and share my knowledge wit
 
 Then, I'm going to take another course that derives from CS50. This one is known as [*CS50's Web Programming with Python and JavaScript*](https://cs50.harvard.edu/web/2020/), and it explains a lot of web development topics I don't have much experience in yet, such as Git, Django(another Python framework for web development, used by companies like Instagram), SQL models and migrations, CI/CD(continuous integration and development, which I know nothing about), and scalability as well as security. By the end of this course, which I'm hoping to finish by the end of December 2021, I'll hopefully have enough full-stack knowledge to be able to code a entire web application and then maintain it.
 
+In addition to taking this course, I also plan to perfect my full-stack skills during this time, especially since I'm a self-taught programmer and have tidbits of knowledge here and there in full-stack web development. When it comes to CSS, I have general knowledge of Bootstrap, but often find myself referencing the documentation. I'd rather learn [Tailwind CSS](https://tailwindcss.com/), which is a "utility-based framework" or basically a CSS framework that allows me to write less CSS. To learn TailwindCSS, I'm planning to take a look at their documentation and slowly work my way through it by creating HTML/CSS designs.
+
+When it comes to JavaScript, I'm super interested in learning more about React + Redux. CS50's Web Programming with Python and JavaScript introduces React, but I'd also like to learn Redux with it. [FreeCodeCamp](https://www.freecodecamp.org/) seems to be a good choice for this, so I'll be learning React and Redux using it.
+
 That's my short plan for learning web development! Obviously, there's other topics and alternative frameworks I could use(e.g, Express with NodeJS, Ruby On Rails, etc.), but the above seems to provide a reasonable amount of web programming knowledge.
 
 ## Competitive Programming
@@ -53,14 +57,14 @@ Once I've learned algorithms and data structures(I'll definitely share my progre
 2. *Programming Interviews Exposed: Coding Your Way Through the Interview*: Another book on coding interviews, with coding problems that are explained and discussed more in-depth.
 3. USACO: USACO's online training page provides a bunch of example problems too,and presents them similar to how programming problems would be presented in a actual competition, so I'll be using it as well.
 
-This is my plan for learning competitive programming! It's certainly going to be tough considering the lack of knowledge I have in algorithms and data structures, but I love a good programming challenge.
+This is my plan for learning competitive programming! It's certainly going to be tough considering the lack of knowledge I have in algorithms and data structures, but I love a good programming challenge. After I'm done with the above resources, I plan to poke my nose deeper into the competitive programming competitions that are out there.
 
 ## Conclusion
 This is my learning roadmap for the next two years or so. To recap:
 - [ ] June 2021: Finish CS50
 - [ ] August 2021: Read and learn from *Think Java*
-- [ ] December 2021: Finish CS50's Web Programming with Python and JavaScript
+- [ ] December 2021: Finish CS50's Web Programming with Python and JavaScript and perfect my tech stack
 - [ ] June 2022: Get a solid understanding of data structures and algorithms
 - [ ] Onward from June 2022: Practice competitive programming problems and participate in competitions
 
-I'm excited to get started! A consistently updated version of this checklist can be found on the [main](https://jianmin-chen.github.io/blog) page of this blog, if you're interested. If you have any questions or comments though, feel free to fire below!
+I'm excited to get started! A consistently updated version of this checklist can be found on the [main](https://jianmin-chen.github.io/blog) page of this blog, if you're interested. In addition, as I work on this plan, I'll definitely be writing posts about what I'm learning. If you have any questions or comments though, feel free to fire below!
