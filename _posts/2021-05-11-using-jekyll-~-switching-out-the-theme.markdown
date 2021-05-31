@@ -64,7 +64,7 @@ plugins_dir:
     - jekyll-remote-theme
 remote_theme: jianmin-chen/techdoc
 ~~~
-These lines tell Jekyll to use the plugin `jekyll-remote-theme`. What this plugin does is enable GitHub Pages to search for the theme located at `remote_theme`(which should point to a GitHub repository), and use it in your blog or website.
+These lines tell Jekyll to use the plugin `jekyll-remote-theme`. What this plugin does is enable GitHub Pages to search for the theme located at `remote_theme`(which should point to a GitHub repository), and use it in your blog or website. Make sure to remove `theme: techdoc-jekyll-theme` too because it can cause issues when GitHub attempts to determine the theme to use.
 
 The next step is log into your GitHub account - you can create one if you haven't done so already. Now, you need to create a GitHub repository for your Jekyll blog or website. There are two options for naming it:
 1. *Your website has a `baseurl`.* In this case, you can simply name it as the `baseurl`.
