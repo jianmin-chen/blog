@@ -25,3 +25,5 @@ Oh, and check out my profile on:
 * [GitHub](https://github.com/jianmin-chen)
 * [Stack Overflow](https://stackoverflow.com/users/12561168/detectivecamel)
 * [Sololearn](https://www.sololearn.com/profile/15316562)
+
+Finally, the content on this website is licensed under the MIT license. In other words, you're free to use it!
