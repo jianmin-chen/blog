@@ -13,6 +13,7 @@ Since then, I've gained experience in and dabbled with:
 * C for basic computer science concepts
 * HTML/CSS and Bootstrap
 * JavaScript and React, which was actually pretty easy to pick up
+* A bunch of other programming languages that I can't say I have much experience in
 
 Of course, the mantra of programming must be something like "just keep learning", meaning I'm still learning all sorts of things - there's so much out there to do and learn, which makes programming genuinely interesting! In fact, I'm currently following a roadmap to learn programming:
 - [ ] June 2021: Finish CS50
