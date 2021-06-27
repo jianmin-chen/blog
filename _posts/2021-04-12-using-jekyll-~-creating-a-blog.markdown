@@ -9,7 +9,7 @@ title: Using Jekyll ~ Creating a Blog
 
 Recently, I've been playing around with Jekyll, a static site generator. I've even gotten around to creating my own Jekyll [theme](https://github.com/jianmin-chen/techdoc), so I thought it would be interesting to talk about using Jekyll with GitHub Pages in a series of articles dedicated to the topic.
 
-This is the first article in that series, and in this article, we'll talk about what Jekyll is and how to set up a basic blog with Jekyll. In the next article, we'll walk through how to switch out the theme of our blog, as well as deploying it to GitHub Pages. Finally, I'll explain how to create a custom Jekyll theme and my experience doing so. Let's get started!
+This is the first article in that series, and in this article, we'll talk about what Jekyll is and how to set up a basic blog with Jekyll. In the next article, we'll walk through how to switch out the theme of our blog, as well as deploying it to GitHub Pages. Let's get started!
 
 ## What is Jekyll?
 Great question! Jekyll is a static site generator. To put it simply, Jekyll takes text files written in a format known as Markdown, and parses them into HTML files whenever a file on your site is accessed. Jekyll sites use HTML and CSS like every other website ever, but it's the parsing that makes it special and easy to use, especially for those who blog.

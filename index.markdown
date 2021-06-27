@@ -22,7 +22,7 @@ Of course, the mantra of programming must be something like "just keep learning"
 - [ ] June 2022: Get a solid understanding of data structures and algorithms
 - [ ] Onward from June 2022: Practice competitive programming problems and participate in competitions
 
-Oh, and check out my profile on:
+I actually wrote a whole post on creating this roadmap; if you're interested, feel free to check out this [post](https://jianmin-chen.github.io/blog/others/plans/2021/05/14/my-programming-roadmap.html). Oh, and check out my profile on:
 * [GitHub](https://github.com/jianmin-chen)
 * [Stack Overflow](https://stackoverflow.com/users/12561168/detectivecamel)
 * [Sololearn](https://www.sololearn.com/profile/15316562)

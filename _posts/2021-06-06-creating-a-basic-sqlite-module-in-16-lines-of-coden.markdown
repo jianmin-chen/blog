@@ -3,7 +3,7 @@ categories: python sqlite
 date: 2021-06-06 01:45:35 -0500
 layout: post
 tags: python sqlite
-title: Creating a Basic SQLite Module in Python
+title: Creating a Basic SQLite Module in 16 Lines of Code
 ---
 ![SQLite icon](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png)
 

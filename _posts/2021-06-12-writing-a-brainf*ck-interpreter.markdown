@@ -208,7 +208,7 @@ As for going back to the beginning of a while loop, we need to move back one com
 
 That's it for the program! Create another file for the Brainf*ck program you want to run, compile this program, and run it!
 
-There are a bunch of cool programs you can try out [here](https://github.com/fabianishere/brainfuck/tree/master/examples). There are even Brainf*ck programs provided in it that print out the Mandelbrot Set(a fractal) to the console! Super, super cool.
+There are a bunch of cool programs you can try out [here](https://github.com/fabianishere/brainfuck/tree/master/examples). There are even Brainf*ck programs provided in it that print out the Mandelbrot Set(a fractal) to the console!
 
 ## Conclusion
 This article was definitely enjoyable to write. If you'd like to see the code in one place, head [here](https://github.com/jianmin-chen/blog-programs/tree/main/Writing%20a%20Brainf*ck%20Interpreter). If you have questions, ask below. Otherwise, have a good day!

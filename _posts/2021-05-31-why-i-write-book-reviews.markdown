@@ -5,7 +5,7 @@ layout: post
 tags: books
 title: Why I Write Book Reviews
 ---
-![Stacked books](https://lh3.googleusercontent.com/proxy/FZ5KthqQyesT3qWKtWILPDwhZVxoge7Wb2xUO9FNYrOTu5GunzzjVk7Ac2PLm1Gi1BkUqfuOVIFHULQionX_nnVgW7Pn8io)
+![Stacked books](https://images.pexels.com/photos/1333742/pexels-photo-1333742.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
 
 On my blog, I sometimes write about books I've read. These books typically fall into the self-help and creativity categories(though I read a lot of books that don't necessarily fit into these genres as a bookworm), and the posts I write for them include what I've learned from the book and what my thoughts were of it.
 
